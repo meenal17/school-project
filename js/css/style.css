@@ -1,0 +1,83 @@
+.navbar-brand{
+font-family: 'Playfair Display', serif;
+font-size:2em;
+font-weight: bold;
+color:#fff;
+}
+.custom-nav.custom-nav-item a {
+	color:#fff!important;
+}
+.custom-nav-item:hover{
+	background-color:red;
+	border:red 1px;
+	border-radius: 10px; 
+}
+.remove-vid-marg{
+	margin:0px;
+	padding: 0px;
+}
+.vid-parent{
+position: relative;
+}
+vedio{
+	width:60%;
+	height:80%;
+}
+.vid-overlay{
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:#225470;
+	z-index:1;
+	opacity:0.6;
+}
+.vid-content{
+	position: absolute;
+	z-index:2;
+	top:50%;
+	left:35%;
+	text-align:center;
+	color:#fff;
+}
+.bottom-banner{
+	padding:10px;
+}
+
+.stripe {
+	background-image:linear-gradient(240deg,red,#93291e);
+	padding:3rem;
+	height:13rem;
+	transform:rotate(10deg);
+	z-index:-5; 
+}
+
+@media screen and (min-width:0px) and(min-width:700px) {
+.my-content,
+.txt-banner{
+	display:none;
+}
+.vid-content{
+	top:12%;
+	left:60%;
+}
+.custom-nav.custom-nav-item a{
+	padding: 10px 20px;
+	background-color:none; 
+}
+.custom-nav-item:hover{
+	background-color:none;
+	border:none;
+	border-radius:none; 
+}
+}
+
+
+
+
+
+
+
+
+
